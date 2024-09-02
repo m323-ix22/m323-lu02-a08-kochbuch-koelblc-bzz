@@ -1,6 +1,7 @@
 """
-Dieses Modul verwaltet ein JSON-basiertes Kochbuch und passt die Mengenangaben von Rezepten an eine gegebene Anzahl von Personen an.
-Alle Funktionen sind pure functions und verwenden nur unveränderliche Daten.
+Dieses Modul verwaltet ein JSON-basiertes Kochbuch und passt die Mengenangaben
+von Rezepten an eine gegebene Anzahl von Personen an. Alle Funktionen sind
+pure functions und verwenden nur unveränderliche Daten.
 """
 
 import json
@@ -26,7 +27,6 @@ def adjust_recipe(recipe_data, num_people):
     }
 
     return adjusted_recipe_data
-
 
 if __name__ == '__main__':
     recipe_json = (
