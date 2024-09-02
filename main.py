@@ -27,6 +27,7 @@ def adjust_recipe(recipe_data, num_people):
 
     return adjusted_recipe_data
 
+
 if __name__ == '__main__':
     recipe_json = (
         '{"title": "Spaghetti Bolognese", "ingredients": {"Spaghetti": 400, '
